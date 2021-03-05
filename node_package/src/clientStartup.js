@@ -220,9 +220,9 @@ function renderInit() {
     document.addEventListener('page:before-unload', reactOnRailsPageUnloaded);
     document.addEventListener('page:change', reactOnRailsPageLoaded);
 
-    if (isSafari()) {
+    // if (isSafari()) {
       reactOnRailsPageLoaded();
-    }
+    // }
   }
 }
 
